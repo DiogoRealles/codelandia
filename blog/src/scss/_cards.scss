@@ -1,0 +1,64 @@
+@use './variables';
+
+.card{
+  width: 100%;
+  max-width: 900px;
+  padding: 18px 24px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(111, 111, 111, .2);
+  background: variables.$white;
+  transition: all .3s ease-in-out;
+  margin-bottom: 40px;
+  &:first-child{
+    margin-top: 100px;
+  }
+
+  &__top{
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__date{
+    color: variables.$grey-normal;
+    font-size: 18px;
+  }
+
+  &__like{
+    color: variables.$primary;
+    background: none;
+    border: none;
+    padding: 4px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  &__title{
+    font-size: 32px;
+    color: variables.$grey-dark;
+    line-height: 110%;
+    margin-bottom: 16px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  &__text{
+    font-size: 18px;
+    color: variables.$grey-normal;
+    line-height: 150%;
+  }
+
+  &.games:hover{
+    border: 2px solid variables.$games;
+  }
+
+  &.cinema:hover{
+    border: 2px solid variables.$cinema;
+  }
+
+  &.tecnologia:hover{
+    border: 2px solid variables.$tecnologia;
+  }
+}
