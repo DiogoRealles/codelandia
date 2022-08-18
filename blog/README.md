@@ -15,6 +15,17 @@
 
 <div>
 
+## <b>Overview</b>
+
+Projeto de desafio do grupo <b>Codelândia</b>, onde devemos codificar as landing pages disponibilizadas.<br>
+Objetivo do projeto foi criar uma página responsiva para um blog fictício, desenvolvida com as technologias:<br />
+<b>HTML5</b> | <b>CSS3</b> | <b>JavaScript</b> | <b>SASS</b> | <b>React</b> | <b>Json-Server</b> e métodologia <b>BEM</b>.
+<br><br><br>
+</div>
+
+
+<div>
+
   ## Features
   
   - AOS JS
@@ -28,6 +39,18 @@
   - Page About
   - Page Post details
   - Smooth animation on scroll
+</div>
+
+
+<div>
+
+## <b>Screenshots</b>
+
+![Screenshots](./src/img/screenshot-01.png)
+<p>
+
+_blog. - SASS / BEM_</p>
+
 </div>
 
 
@@ -50,6 +73,7 @@
   ```
 </div>
 <br />
+
 
 <footer>
   <p>Gostou? deixa seu like!</p>
