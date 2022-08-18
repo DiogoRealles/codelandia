@@ -58,7 +58,7 @@ _blog. - SASS / BEM_</p>
 
   ## That I liked to learn
   
-  <p>Gostei de usar biblioteca AOS JS.</p>
+  <p>Doing use library <b>AOS JS</b>.</p>
 
   ```CSS
   <div data-aos="fade-up"> ... </div>
@@ -73,6 +73,13 @@ _blog. - SASS / BEM_</p>
   ```
 </div>
 <br />
+
+
+<div>
+
+## <b>See project online</b>
+  <a href="https://www.realles.tk/projects/hora-de-codar/project04/" target="_blank"><img src="https://img.shields.io/badge/Site-Projeto 04-black?style=for-the-badge&logo=html5&logoColor=white"></a>
+</div>
 
 
 <footer>
