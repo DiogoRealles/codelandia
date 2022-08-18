@@ -83,6 +83,7 @@ _blog. - SASS / BEM_</p>
 
 
 <div>
+  
   ## Thanks
   
   <p>Thanks _Iuri Silva_ disponibilized layouts Figma in group codelândia.</p>
