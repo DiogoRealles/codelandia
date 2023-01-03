@@ -28,6 +28,7 @@ Objetivo do projeto foi criar uma página responsiva para um blog fictício, des
 
   ## Features
   
+  - HTML | CSS | JS | React
   - AOS JS
   - Fetch API
   - Json-Server
