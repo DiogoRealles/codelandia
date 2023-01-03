@@ -32,5 +32,5 @@
   <a href="mailto:diogorealles@hotmail.com"><img src="https://img.shields.io/badge/diogorealles@hotmail.com-1F2D52?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/diogorealles/"><img src="https://img.shields.io/badge//Diogo Realles-1F2D52?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   
-  <p><strong>Diogo Realles | 2022</strong></p>
+  <p><strong>Diogo Realles | 2023</strong></p>
 </footer>
