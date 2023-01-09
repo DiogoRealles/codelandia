@@ -2,9 +2,9 @@
   
   <img src="./logo.svg" min-width="125" max-width="125" width="125" align="center" alt="Logo" />
 
-  ### CODELÂNDIA CHALLENGES
+  ### CODELÂNDIA DESAFIOS
   
-  <p>Projects by group codelândia.</p>
+  <p>Projetos Finalizados do grupo Codelândia.</p>
   
   <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg"> &nbsp;
   <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg"> &nbsp;
