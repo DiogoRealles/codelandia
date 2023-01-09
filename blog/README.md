@@ -3,7 +3,7 @@
 
   ### blog.
   
-  <p>Projects by group codelândia.</p>
+  <p>Projetos finalizados do grupo Codelândia.</p>
   
   <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg"> &nbsp;
   <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg"> &nbsp;
@@ -17,9 +17,9 @@
 
 ## <b>Overview</b>
 
-Projeto de desafio do grupo <b>Codelândia</b>, onde devemos codificar as landing pages disponibilizadas.<br>
+Desafio do grupo <b>Codelândia</b>, onde devemos codificar as landing pages disponibilizadas.<br>
 Objetivo do projeto foi criar uma página responsiva para um blog fictício, desenvolvida com as technologias:<br />
-<b>HTML5</b> | <b>CSS3</b> | <b>JavaScript</b> | <b>SASS</b> | <b>React</b> | <b>Json-Server</b> e métodologia <b>BEM</b>.
+<b>HTML5</b> | <b>CSS3</b> | <b>JavaScript</b> | <b>Sass</b> | <b>React</b> | <b>Json-Server</b> e métodologia <b>BEM</b>.
 <br><br><br>
 </div>
 
@@ -57,17 +57,17 @@ _blog. - SASS / BEM_</p>
 
 <div>
 
-  ## That I liked to learn
+  ## O que aprendi
   
-  <p>Doing use library <b>AOS JS</b>.</p>
+  <p>Usar lib <b>AOS JS</b>.</p>
 
   ```CSS
-  <div data-aos="fade-up"> ... </div>
+  <div data-aos="fade-up" data-aos-duration="1000"> ... </div>
   ```
   
   <br />
   
-  <p>Doing <b>fetch</b> datas in JavaScript</p>
+  <p>Usar <b>Fetch API</b> para buscar dados com JavaScript</p>
   
   ```javascript
   featch('db.json').then(response => response.json())...
@@ -78,16 +78,16 @@ _blog. - SASS / BEM_</p>
 
 <div>
 
-## <b>See project online</b>
+## <b>Ver p projeto online</b>
   <a href="https://www.realles.tk/projects/hora-de-codar/project04/" target="_blank"><img src="https://img.shields.io/badge/Site-Projeto 04-black?style=for-the-badge&logo=html5&logoColor=white"></a>
 </div>
 
 
 <div>
   
-  ## Thanks
+  ## Obrigado
   
-  Thanks _Iuri Silva_ disponibilized layouts Figma in group codelândia.
+  Agradecimentos: _Iuri Silva_ por disponibilizar os layouts.
 </div>
 
 
