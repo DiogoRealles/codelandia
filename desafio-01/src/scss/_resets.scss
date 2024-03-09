@@ -1,0 +1,47 @@
+@use './variables';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: variables.$font-body;
+}
+
+::selection{
+  background: variables.$white;
+  color: variables.$secondary;
+}
+
+body{
+  background: variables.$grey-100;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.borda{
+  border: 2px solid red;
+}
+
+h6{
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 auto 24px auto;
+  text-align: center;
+}
+
+.games{
+  color: variables.$games;
+}
+
+.cinema{
+  color: variables.$cinema;
+}
+
+.tecnologia{
+  color: variables.$tecnologia;
+}

@@ -1,0 +1,57 @@
+@use './variables';
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  width: 100%;
+  max-width: 500px;
+  margin-inline: auto;
+
+  .button{
+    background: transparent;
+    // border: 2px solid variables.$primary-100;
+    font-family: variables.$font-body;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: variables.$light-100;
+    padding: 1rem 2.4rem;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    flex: 1 1 300px;
+    border-radius: .8rem;
+
+    &-primary{
+      border: 2px solid transparent;
+      background: variables.$primary-100;
+
+      &:is(:hover, :focus){
+        filter: brightness(1.1);
+      }
+    }
+    
+    &-outline{
+      border: 2px solid variables.$light-200;
+      background: variables.$light-400;
+      color: variables.$dark-100;
+
+      &:is(:hover, :focus){
+        background: variables.$primary-100;
+        border-color: variables.$primary-100;
+        color: variables.$light-100;
+      }
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    // max-width: 100%;
+    flex-wrap: wrap;
+  }
+}

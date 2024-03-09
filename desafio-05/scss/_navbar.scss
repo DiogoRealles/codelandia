@@ -1,0 +1,32 @@
+@use './variables';
+
+.navbar{
+  padding-block: 1.6rem;
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+      width: 10rem;
+      height: 5rem;
+    }
+
+    ul{
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+
+      li{
+        padding: .4rem;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+
+        &:is(:hover, :focus){
+          transform: translateY(-8px);
+        }
+      }
+    }
+  }
+}

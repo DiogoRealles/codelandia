@@ -1,0 +1,13 @@
+{
+  "products": [
+    {"id": 1, "name": "Shoes 01", "imgBrand": "./img/brand-01.svg", "imgProduct": "./img/img-01.png", "price": 3.499, "description": "Lorem ipsum dolor sit amet consectetur adipisicing. Maiores incidunt ullam vitae"},
+    {"id": 2, "name": "Shoes 02", "imgBrand": "./img/brand-01.svg", "imgProduct": "./img/img-02.png", "price": 3.276, "description": "nesciunt Aperiam at aliquid praesentium sapiente officiis reiciendis eius ipsum"},
+    {"id": 3, "name": "Shoes 03", "imgBrand": "./img/brand-01.svg", "imgProduct": "./img/img-03.png", "price": 4.29, "description": "At neque laboriosam corporis vel expedita dignissimos molestias"},
+    {"id": 1, "name": "Shoes 04", "imgBrand": "./img/brand-01.svg", "imgProduct": "./img/img-04.png", "price": 3.499, "description": "Lorem ipsum dolor sit amet consectetur adipisicing. Maiores incidunt ullam vitae"},
+    {"id": 2, "name": "Shoes 05", "imgBrand": "./img/brand-01.svg", "imgProduct": "./img/img-05.png", "price": 3.276, "description": "nesciunt Aperiam at aliquid praesentium sapiente officiis reiciendis eius ipsum"},
+    {"id": 3, "name": "Shoes 06", "imgBrand": "./img/brand-01.svg", "imgProduct": "./img/img-06.png", "price": 4.29, "description": "At neque laboriosam corporis vel expedita dignissimos molestias"},
+    {"id": 1, "name": "Shoes 07", "imgBrand": "./img/brand-01.svg", "imgProduct": "./img/img-07.png", "price": 3.499, "description": "Lorem ipsum dolor sit amet consectetur adipisicing. Maiores incidunt ullam vitae"},
+    {"id": 2, "name": "Shoes 08", "imgBrand": "./img/brand-01.svg", "imgProduct": "./img/img-08.png", "price": 3.276, "description": "nesciunt Aperiam at aliquid praesentium sapiente officiis reiciendis eius ipsum"},
+    {"id": 3, "name": "Shoes 01", "imgBrand": "./img/brand-01.svg", "imgProduct": "./img/img-01.png", "price": 4.29, "description": "At neque laboriosam corporis vel expedita dignissimos molestias"}
+  ]
+}

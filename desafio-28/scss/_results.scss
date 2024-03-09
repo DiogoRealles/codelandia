@@ -1,0 +1,68 @@
+@use "./variables" as *;
+
+.results {
+  background: $light;
+  padding-block: 5.6rem;
+
+  .container {
+    .board {
+      width: 100%;
+      max-width: 70rem;
+      margin-inline: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .team {
+        display: flex;
+        align-items: center;
+
+        gap: 3.2rem;
+
+        h2 {
+          font-family: $font-inter;
+          font-weight: 600;
+          font-size: 3.2rem;
+          color: $dark;
+          display: none;
+        }
+
+        img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+
+      .score {
+        font-family: $font-inter;
+        font-weight: 500;
+        font-size: 3.6rem;
+        color: $dark;
+
+        .divider {
+          opacity: 0.4;
+        }
+
+        span {
+          font-family: $font-inter;
+          font-weight: 500;
+          font-size: 3.6rem;
+          color: $dark;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .container {
+      .board {
+        .team {
+          h2 {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

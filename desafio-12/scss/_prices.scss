@@ -1,0 +1,65 @@
+@use './variables';
+
+
+.prices{
+  padding-block: 8rem;
+  background: variables.$light-100;
+
+  .container{
+    .cards{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4rem;
+
+      .card{
+        flex: 1 1 240px;
+        padding: 1rem;
+        background: variables.$primary-300;
+        border-radius: 1.6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        img{
+          width: 100%;
+          max-width: 150px;
+          margin-inline: auto;
+        }
+
+        h3{
+          text-align: center;
+          font-family: variables.$font-body;
+          font-weight: 600;
+          font-size: 2.4rem;
+          line-height: 120%;
+          margin-bottom: 1.6rem;
+          color: variables.$dark-100;
+        }
+
+        strong{
+          font-size: 3.2rem;
+          text-align: center;
+          display: block;
+          margin-bottom: 1.6rem;
+          color: variables.$grey-100
+        }
+
+        ul{
+          margin-bottom: 1.6rem;
+
+          li{
+            font-family: variables.$font-body;
+            font-weight: 500;
+            font-size: 1.8rem;
+            line-height: 110%;
+            padding-block: 1rem;
+            color: variables.$grey-100;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

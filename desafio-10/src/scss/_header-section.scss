@@ -1,0 +1,25 @@
+@use './variables';
+
+.header-section{
+  max-width: 32rem;
+  border-bottom: 2px solid variables.$primary-100;
+
+  h2{
+    font-family: variables.$font-title;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 120%;
+    color: variables.$light-100;
+    margin-bottom: 1.4rem;
+  }
+  
+  p{
+    font-family: variables.$font-body;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: variables.$grey-100;
+    margin-bottom: .8rem;
+  }
+}

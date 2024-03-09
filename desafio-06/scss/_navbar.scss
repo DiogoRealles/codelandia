@@ -1,0 +1,32 @@
+@use './variables';
+
+.navbar{
+  padding-block: 1.6rem;
+  background: variables.$dark-100;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+      width: 10rem;
+      height: 5rem;
+    }
+
+    ul{
+      display: flex;
+      align-items: center;
+
+      li{
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@use './variables';
+
+
+.hero{
+  background: url('../img/img-hero.jpg') no-repeat center/cover;
+  background-attachment: fixed;
+  padding-block: 20rem;
+  width: 100%;
+  height: 100%;
+
+  .container{
+    h1{
+      font-family: variables.$font-body;
+      font-weight: 600;
+      font-size: 8rem;
+      line-height: 120%;
+      text-align: center;
+      color: variables.$light-100;
+
+      span{
+        &:nth-child(1){
+          color: variables.$yellow;
+        }
+        &:nth-child(2){
+          color: variables.$red;
+        }
+        &:nth-child(3){
+          color: variables.$green;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    padding-block: 14rem;
+
+    .container{
+      h1{
+        font-size: 5.6rem;
+      }
+    }
+  }
+}

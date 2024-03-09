@@ -1,0 +1,177 @@
+@use "./variables" as *;
+
+.news {
+  background: $light;
+  padding-block: 4.8rem;
+
+  .container {
+    h2 {
+      font-family: $font-inter;
+      font-weight: 600;
+      font-size: 3.2rem;
+      color: $dark;
+      margin-bottom: 5.6rem;
+      position: relative;
+
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 6px;
+        left: -2px;
+        width: 4px;
+        height: 25px;
+        background: $red;
+        margin-left: -5px;
+        margin-bottom: 3.2rem;
+      }
+    }
+
+    .posts {
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+
+      .post {
+        position: relative;
+
+        &:last-child {
+          margin-bottom: 4.8rem;
+        }
+
+        &-header {
+          width: 100%;
+          height: 254px;
+          overflow: hidden;
+
+          img {
+            transition: all 0.3s ease-in-out;
+          }
+        }
+
+        .body {
+          > div {
+            padding-block: 1.6rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h4 {
+              font-family: $font-inter;
+              font-weight: 600;
+              font-size: 1.2rem;
+              line-height: 120%;
+              color: $red;
+            }
+
+            .date {
+              font-family: $font-inter;
+              font-weight: 100;
+              font-size: 1.3rem;
+              line-height: 120%;
+              color: $dark;
+            }
+          }
+
+          p {
+            font-family: $font-inter;
+            font-weight: 500;
+            font-size: 1.4rem;
+            color: $dark;
+          }
+        }
+
+        &-link {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          text-decoration: none;
+          color: $light;
+
+          .h-link {
+            position: absolute !important;
+            clip: rect(1px 1px 1px 1px);
+            clip: rect(1px, 1px, 1px, 1px);
+            padding: 0 !important;
+            border: 0 !important;
+            height: 1px !important;
+            width: 1px !important;
+            overflow: hidden;
+          }
+        }
+
+        &:hover {
+          img {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+
+    .button {
+      background: $red;
+      color: $light;
+      font-size: 1.4rem;
+      padding-block: 1.2rem;
+      padding-inline: 1.8rem;
+      font-weight: 600;
+      border-radius: 4px;
+      transition: all 0.3s ease-in-out;
+      text-transform: uppercase;
+      width: 100%;
+
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .container {
+      h2 {
+        font-family: $font-inter;
+        font-weight: 600;
+        font-size: 3.2rem;
+        margin-bottom: 5.6rem;
+      }
+
+      .posts {
+        flex-direction: row;
+        gap: 1.8rem;
+        margin-bottom: 7.6rem;
+
+        .post {
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          .body {
+            > .div {
+              h4 {
+                font-size: 1.4rem;
+              }
+
+              .date {
+                font-size: 1.4rem;
+              }
+            }
+
+            p {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+
+      .button {
+        width: fit-content;
+        margin-inline: auto;
+        display: block;
+      }
+    }
+  }
+}

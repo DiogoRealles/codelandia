@@ -1,0 +1,94 @@
+@use './variables';
+
+
+.hero{
+  padding-block: 10rem;
+  background: url('../img/img-hero.jpg') no-repeat center/cover;
+  // background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+
+  .container{
+    .intro{
+      width: 100%;
+      max-width: 60rem;
+
+      .top{
+        margin-bottom: 2.4erm;
+
+        .tag{
+          display: inline-block;
+          padding: 4px 8px;
+          background: variables.$dark-100;
+          font-weight: 600;
+          font-size: 1.4rem;
+          line-height: 100%;
+          color: variables.$emphasis;
+          margin-bottom: 16px;
+        }
+
+        .rating-time{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          max-width: 24rem;
+          margin-bottom: 2.4rem;
+
+          .stars{
+            display: flex;
+            align-items: center;
+            gap: 6px;
+
+            i{
+              font-size: 18px;
+              color: variables.$emphasis;
+            }
+          }
+  
+          .time{
+            display: flex;
+            align-items: center;
+            gap: 6px;
+
+            i{
+              font-size: 18px;
+              color: variables.$light-100;
+            }
+  
+            time{
+              font-size: 18px;
+              color: variables.$light-100;
+            }
+          }
+        }
+      }
+
+      .body{
+        h1{
+          font-weight: 600;
+          font-size: 5.6rem;
+          line-height: 130%;
+          color: variables.$light-100;
+          margin-bottom: 16px;
+        }
+
+        h2{
+          font-weight: 600;
+          font-size: 2rem;
+          line-height: 130%;
+          color: variables.$light-100;
+          margin-bottom: 8px;
+        }
+
+        p{
+          font-weight: 400;
+          font-size: 2rem;
+          line-height: 150%;
+          color: variables.$light-100;
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+}

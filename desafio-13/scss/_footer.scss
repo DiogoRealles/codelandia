@@ -1,0 +1,67 @@
+@use './variables';
+
+
+.footer{
+  padding-block: 1.6rem;
+  background: variables.$dark-100;
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-block: 2rem;
+
+    .global-link{
+      display: none;
+    }
+
+    .logo{
+      font-family: variables.$font-title;
+      font-weight: 700;
+      font-size: 2.4rem;
+      line-height: 100%;
+      background: linear-gradient(264.26deg, #FF267A 0%, #FFA634 101.03%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .menu-footer{
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+
+      li{
+        padding: .4rem;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+        background: variables.$dark-100;
+        border-radius: 50%;
+        padding: .8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:is(:hover, :focus){
+          transform: translateY(-8px);
+        }
+        
+        a{
+          font-size: 1.8rem;
+          color: variables.$light-100;
+        }
+      }
+    }
+  }
+
+  .bottom{
+    // padding: 4rem;
+    text-align: center;
+    color: variables.$light-100;
+
+    p{
+      line-height: 200%;
+    }
+  }
+}

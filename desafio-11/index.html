@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Regular data -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <meta name="author" content="Diogo Realles, SoftwaRealles" />
+  <meta name="description" content="Layout structure initial by Diogo Realles." />
+  <meta name="keywords"  content="Template, " />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.realles.tk/" />
+
+  <!-- Open Graph data -->
+  <meta property="og:url" content="https://www.realles.tk/" />
+  <meta property="og:title" content="Layout structure initial" />
+  <meta property="og:site_name" content="Template - Services Architecture" />
+  <meta property="og:description" content="Layout structure initial." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="www.realles.tk/img/cover.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="500" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="article:published_time" content="2022-12-12T11:46:00+00:00" />
+  <meta property="article:modified_time" content="2022-12-12T11:46:04+00:00" />
+
+  <!-- Twitter -->	
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Layout structure initial" />
+  <meta name="twitter:description" content="Layout structure initial." />
+  <meta name="twitter:url" content="https://www.realles.tk/" />
+  <meta name="twitter:image" content="www.realles.tk/img/cover.png" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./img/favicon.svg?v=1" type="image/x-icon" />
+  <link rel="icon" href="./img/favicon.svg" type="image/svg+xml" />
+  <link rel="shortcut icon" href="./img/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="./img/favicon/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="./img/favicon/favicon-32x32.png" type="image/png" sizes="32x32" />
+  <link rel="icon" href="./img/favicon/favicon-64x64.png" type="image/png" sizes="64x64" />
+
+  <!-- Google Fonts | Sora -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" />
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- CSS Project -->
+  <link rel="preload" href="./css/style.min.css" as="style" />
+  <link rel="stylesheet" href="./css/style.min.css" />
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- JS Project -->
+  <!-- <script type="module" src="./js/script.js" defer></script> -->
+  
+  <script src="./js/script.js" defer></script>
+  <script src="./js/pizzas.js"></script>
+
+  <title>Codelandia - Desafio 11 (Pizzaria)</title>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>La P<span>i</span><span>z</span><span>z</span>a</h1>
+    </div>
+  </header>
+
+  <section class="pizzas">
+    <div class="container">
+      <header class="header-section">
+        <h2>Pizzas</h2>
+        <p>Escolha seus sabores de pizzas</p>
+      </header>
+      
+      <div class="models">
+        <div class="pizza-item">
+          <div>
+            <div class="pizza-item--img"><img src="" /></div>
+          </div>
+          <div class="pizza-item--name">--</div>
+          <div class="pizza-item--desc">--</div>
+          <div class="pizza-item--price">R$ --</div>
+          <a href="" data-js="addPizza" class="pizza-item--add">Comprar agora</a>
+        </div>
+        <div class="cart--item">
+          <img src="" />
+          <div class="cart--item-nome">--</div>
+          <div class="cart--item--qtarea">
+            <button class="cart--item-qtymenos">-</button>
+            <div class="cart--item--qty">1</div>
+            <button class="cart--item-qtymais">+</button>
+          </div>
+        </div>
+      </div>
+      <header class="header-openner">
+        <div class="menu-openner"><span>0</span>🛒</div>
+      </header>
+      <div class="pizza-container">
+        <main>
+          <div class="pizza-area"></div> 
+        </main>
+        <aside>
+          <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Suas Pizzas</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+              <div class="cart--totalitem subtotal">
+                <span>Subtotal</span>
+                <span>R$ --</span>
+              </div>
+              <div class="cart--totalitem desconto">
+                <span>Desconto (-10%)</span>
+                <span>R$ --</span>
+              </div>
+              <div class="cart--totalitem total big">
+                <span>Total</span>
+                <span>R$ --</span>
+              </div>
+              <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+          </div>
+        </aside>
+        <div class="pizzaWindowArea">
+          <div class="pizzaWindowBody">
+            <div class="pizzaInfo--cancelMobileButton">Voltar</div>
+            <div class="pizzaBig">
+              <img src="" />
+            </div>
+            <div class="pizzaInfo">
+              <h1>--</h1>
+              <div class="pizzaInfo--desc">--</div>
+              <div class="pizzaInfo--sizearea">
+                <div class="pizzaInfo--sector">Tamanho</div>
+                <div class="pizzaInfo--sizes">
+                  <div data-key="0" class="pizzaInfo--size">PEQUENA <span>--</span></div>
+                  <div data-key="1" class="pizzaInfo--size">MÉDIO <span>--</span></div>
+                  <div data-key="2" class="pizzaInfo--size selected">GRANDE <span>--</span></div>
+                </div>
+              </div>
+              <div class="pizzaInfo--pricearea">
+                <div class="pizzaInfo--sector">Preço</div>
+                <div class="pizzaInfo--price">
+                  <div class="pizzaInfo--actualPrice">R$ --</div>
+                  <div class="pizzaInfo--qtyarea">
+                    <button class="pizzaInfo--qtymenos">-</button>
+                    <div class="pizzaInfo--qty">1</div>
+                    <button class="pizzaInfo--qtymais">+</button>
+                  </div>
+                </div>
+              </div>
+              <div class="pizzaInfo--addButton">Adicionar ao carrinho</div>
+              <div class="pizzaInfo--cancelButton">Cancelar</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <div class="image">
+        <img src="./img/img-05.jpg" alt="About la Pizza">
+      </div>
+      <div class="text">
+        <h2>La P<span>i</span><span>z</span><span>z</span>a</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis justo sem. Donec consequat, nunc a dapibus dapibus, justo dolor tristique tortor, sit amet tincidunt lorem nisl at ex. Cras dolor purus, varius in euismod pretium, finibus nec mi. Curabitur aliquam pharetra lectus in pharetra. Nullam viverra elementum neque quis fermentum.</p>
+        <a href="#" class="button button-primary">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <p><a href="./"><strong>La Pizza</strong></a> <span data-js="yearFooter">0000</span> &copy; | Todos os direitos reservados.</p>
+    <p>Development by - <strong><a href="https://www.realles.tk" target="_blank">Diogo Realles</a></strong></p>
+  </footer>
+</body>
+</html>

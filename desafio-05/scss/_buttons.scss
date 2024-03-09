@@ -1,0 +1,45 @@
+@use './variables';
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+  flex-wrap: wrap;
+
+  .button{
+    transform: skew(-16deg, 0deg);
+    background: transparent;
+    border: 2px solid variables.$primary-100;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: variables.$light-100;
+    padding: 1.1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    word-break: nowrap;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    flex: 1 1 218px;
+
+    &-primary{
+      background: variables.$primary-100;
+      border: none;
+
+      &:is(:hover, :focus){
+        filter: brightness(1.1);
+      }
+    }
+    
+    &-outline{
+      &:is(:hover, :focus){
+        background: variables.$primary-100;
+      }
+    }
+  }
+}

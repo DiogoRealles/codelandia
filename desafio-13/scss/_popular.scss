@@ -1,0 +1,102 @@
+@use './variables';
+
+
+.popular{
+  margin-top: -8rem;
+  padding-bottom: 10rem;
+
+  .container{
+    .thumbs{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 4rem;
+      
+      .thumb{
+        position: relative;
+        overflow: hidden;
+        padding: 2.4rem;
+        display: flex;
+        width: 100%;
+        height: 30rem;
+
+        .global-link{
+          position: absolute;
+          z-index: 1;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          display: block;
+        }
+
+        &:is(:hover, :focus){
+          img{
+            transform: scale(1.05);
+          }
+        }
+
+        &::after{
+          content: '';
+          display: block;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(rgba(19, 19, 32, 0), rgba(19, 19, 32, 1));
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+        }
+
+        img{
+          background: transparent;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          transition: all .3s ease-in-out;
+        }
+
+        .details{
+          position: absolute;
+          bottom: 1.4rem;
+          left: 1rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
+
+          .tag{
+            padding: .4rem 1.6rem;
+            background: variables.$dark-100;
+            border-radius: .4rem;
+            font-weight: 400;
+            font-size: 1.4rem;
+            line-height: 100%;
+            color: variables.$emphasis;
+          }
+
+          .stars{
+            display: flex;
+            align-items: center;
+            gap: 6px;
+
+            i{
+              font-size: 14px;
+              color: variables.$emphasis;
+            }
+          }
+  
+          .thumb-title{
+            font-weight: 400;
+            font-size: 1.4rem;
+            line-height: 140%;
+            color: variables.$light-100;
+          }
+        }
+      }
+    }
+  }
+}

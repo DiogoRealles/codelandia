@@ -1,0 +1,35 @@
+{
+  "posts": [
+    
+    {
+      "id": 1,
+      "date": "20 JUL 2022",
+      "category": "tecnologia",
+      "imageUrl": "https://images.unsplash.com/photo-1622675273018-0d0bbb4a7d99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "title": "Bem-vindo ao fantástico mundo dos desenvolvedores",
+      "resume": "Eles têm 20 e poucos anos, escolhem onde vão trabalhar e com qual salário. Para contratá-los, empresas chegam a comprar startups inteiras.",
+      "content": "Eles têm 20 e poucos anos, escolhem onde vão trabalhar e com qual salário. Para contratá-los, empresas chegam a comprar startups inteiras. voluptatum laboriosam quod perspiciatis corrupti. Esse, officia. Velit nulla eaque temporibus, nisi cupiditate corrupti similique tenetur aliquid dolore qui ad! Ipsam voluptatibus quibusdam, possimus beatae enim cumque, ab nostrum velit expedita, quae molestias nam laborum suscipit quia quod.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates et recusandae cupiditate illo necessitatibus error. Quae facilis, corporis explicabo culpa earum eos excepturi odit tempore, quo repudiandae debitis nobis vero aliquam velit deleniti fuga itaque quasi. Nam at voluptatibus quibusdam recusandae, blanditiis corporis minima, ab quo alias cum ipsa. Ea, illo? Laboriosam voluptatibus totam eos quisquam magnam ab id tenetur doloremque nesciunt, fugiat eveniet cumque illo expedita officiis quidem! Tenetur architecto libero totam sit ipsum ut non doloribus repudiandae facilis illo animi incidunt rerum nisi aperiam cumque laborum harum, repellat similique, modi, sed veritatis soluta. Amet, quos nostrum! Id, dolorum.",
+      "favorited": true
+    },
+    {
+      "id": 2,
+      "date": "27 JUL 2022",
+      "category": "games",
+      "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bab87e64-f2c8-4b5c-906b-2539ab78b234/dabwzub-77ded54a-1434-4a8c-87cf-562af744cba1.png/v1/fill/w_1032,h_774,strp/forza_horizon_3_wallpaper_by_benny4683_dabwzub-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUzNiIsInBhdGgiOiJcL2ZcL2JhYjg3ZTY0LWYyYzgtNGI1Yy05MDZiLTI1MzlhYjc4YjIzNFwvZGFid3p1Yi03N2RlZDU0YS0xNDM0LTRhOGMtODdjZi01NjJhZjc0NGNiYTEucG5nIiwid2lkdGgiOiI8PTIwNDgifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.G9fdeNxjB5kXSU3oUGkvFPjw9u3WzRh0V4VQOOveBaY",
+      "title": "FH3 - Melhor game de corrida sim ou com certeza?",
+      "resume": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptates cumque facilis repellat quod earum dolorem similique numquam eius soluta, aliquid beatae magnam laudantium reprehenderit nobis perferendis. Beatae architecto quibusdam obcaecati dolorum magni officia officiis voluptas, exercitationem deserunt delectus asperiores saepe rem provident quos a eum totam. Nulla repellendus quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vel amet explicabo modi quisquam veritatis impedit, deserunt enim rem pariatur repudiandae tenetur deleniti dolor voluptates hic sit ipsam corrupti temporibus. Labore assumenda mollitia sequi quidem at. Hic rerum laudantium, eos explicabo sit impedit tempore eveniet alias perspiciatis amet nisi repellendus necessitatibus dolor sunt a fugiat quidem vero rem quo temporibus. Recusandae dolor quam nobis, iusto alias natus explicabo blanditiis est non molestiae veritatis, consequuntur nulla delectus? Laborum, dolorum! Repudiandae officia veniam officiis harum magni est eveniet quisquam excepturi aliquid. Odio laudantium tempora aliquam expedita officiis praesentium. Quam dolorum sapiente veritatis!",
+      "favorited": true
+    },
+    {
+      "id": 3,
+      "date": "03 AGO 2022",
+      "category": "cinema",
+      "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/29/2022/07/23/marvel-anuncia-novos-filmes-de-vingadores-1658624786979_v2_900x506.png",
+      "title": "O que esperar dos novos filmes do MCU-4 e MCU-5",
+      "resume": "Blanditiis quaerat voluptatem corporis eaque dolorem. Amet quas, recusandae rerum ullam reiciendis dolorum ",
+      "content": "Blanditiis quaerat voluptatem corporis eaque dolorem. Amet quas, recusandae rerum ullam reiciendis dolorum alias aperiam cumque libero ipsa optio vel non velit eos exercitationem unde? Esse consequuntur, assumenda quo unde facere accusamus iste maxime aperiam necessitatibus nesciunt? Eius, totam magni odit voluptatum perferendis praesentium architecto velit culpa ducimus saepe veritatis mollitia eum!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia iusto dolorem aliquam exercitationem consectetur cupiditate enim voluptas possimus atque officia voluptatibus illum neque eius, veniam unde? Fugit a atque cumque maiores dignissimos dolores harum molestias nemo, libero deserunt possimus id autem ut corporis officia quasi veritatis praesentium! Quos, quas. Impedit eius fugiat quasi voluptates quos recusandae ex non? Beatae fuga amet laboriosam sunt maiores nobis, repudiandae molestias nisi tempore inventore modi similique enim laudantium cum earum temporibus. Nihil suscipit dolores neque itaque dolor? Cumque saepe voluptates fugiat officiis quam nisi quae illo, temporibus, dolorum quod ipsam maiores! Accusamus, cum quae. ",
+      "favorited": false
+    }
+  ]
+}

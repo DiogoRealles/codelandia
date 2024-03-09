@@ -1,0 +1,44 @@
+@use './variables';
+
+
+.form{
+  width: 100%;
+  max-width: 500px;
+  margin-inline: auto;
+
+  &__group{
+    margin-bottom: 1.6rem;
+  }
+
+  &__label{
+    display: inline-block;
+    margin-bottom: .6rem;
+  }
+  
+  &__control{
+    width: 100%;
+    background: variables.$light-100;
+    border-radius: .4rem;
+    outline: 1px solid variables.$grey-100;
+    border: 1px solid variables.$grey-100;
+    transition: all .3s ease-in-out;
+    padding: 1.4rem 2rem;
+
+    &:is(:hover, :focus){
+      outline: 1px solid variables.$dark-100;
+      border: 1px solid variables.$dark-100;
+    }
+  }
+
+  &__flex{
+    margin-bottom: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+
+    .recovery{
+      color: variables.$primary-100;
+    }
+  }
+}
