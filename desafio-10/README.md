@@ -1,4 +1,4 @@
-# CODELÂNDIA - Desafio 28
+# CODELÂNDIA - Desafio 10
 
 ![cover](cover.jpg)
 
@@ -9,13 +9,14 @@
   <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/sass-000000?style=for-the-badge&logo=sass&logoColor=ffffff" />
   <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=ffffff" />
 <div>
 <br><br>
 
 # ⚡ Overview
 
-<b>Desafio 28</b>: Projeto de desafio do grupo <b>Codelândia</b>, onde devemos codificar as landing pages disponibilizadas.<br>
-Objetivo do projeto foi criar uma página responsiva para time de futebol, desenvolvida com as technologias:<br />
+<b>Desafio 10</b>: Projeto de desafio do grupo <b>Codelândia</b>, onde devemos codificar as landing pages disponibilizadas.<br>
+Objetivo do projeto foi criar uma página responsiva para um blog geek, desenvolvida com as technologias:<br />
 <b>HTML5</b> | <b>CSS3</b> | <b>JavaScript</b> | <b>SASS</b> e métodologia <b>BEM</b>.
 <br /><br />
 
@@ -24,6 +25,11 @@ Objetivo do projeto foi criar uma página responsiva para time de futebol, desen
 - AOS JS
 - Fully responsive
 - SEO optimized
+- Fetch API
+- JSON Server
+- React
+- React Router DOM
+- AXIOS
 - W3C validation
 - Pages load speed
 - Page Home
@@ -41,7 +47,7 @@ Organizar as informações e elementos visuais de forma simples, intuitiva e agr
 
 # 🚀 Deploy
 
-<a href="https://diogorealles.github.io/projects/desafio28/" target="_blank"><img src="https://img.shields.io/badge/Site-Desafio 28-black?style=for-the-badge&logo=html5&logoColor=white"></a>
+<a href="https://diogorealles.github.io/projects/desafio10/" target="_blank"><img src="https://img.shields.io/badge/Site-Desafio 10-black?style=for-the-badge&logo=html5&logoColor=white"></a>
 <br /><br />
 
 ## Clone

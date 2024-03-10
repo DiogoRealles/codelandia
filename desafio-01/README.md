@@ -1,100 +1,68 @@
-<div align="center">
-  <img src="../logo.svg" min-width="125" max-width="125" width="125" align="center" alt="Logo" />
+# CODELÂNDIA - Desafio 01
 
-  ### blog.
-  
-  <p>Projects by group codelândia.</p>
-  
-  <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg"> &nbsp;
-  <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg"> &nbsp;
-  <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"> &nbsp;
-  <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> &nbsp;
-  <img width="3%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-</div>
+![cover](cover.jpg)
 
+# Projetos para prática de Front-end com as mais diversas tecnologias.
 
 <div>
+  <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/sass-000000?style=for-the-badge&logo=sass&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=ffffff" />
+<div>
+<br><br>
 
-## <b>Overview</b>
+# ⚡ Overview
 
-Projeto de desafio do grupo <b>Codelândia</b>, onde devemos codificar as landing pages disponibilizadas.<br>
+<b>Desafio 01</b>: Projeto de desafio do grupo <b>Codelândia</b>, onde devemos codificar as landing pages disponibilizadas.<br>
 Objetivo do projeto foi criar uma página responsiva para um blog fictício, desenvolvida com as technologias:<br />
 <b>HTML5</b> | <b>CSS3</b> | <b>JavaScript</b> | <b>SASS</b> | <b>React</b> | <b>Json-Server</b> e métodologia <b>BEM</b>.
-<br><br><br>
-</div>
+<br /><br />
 
+## Features:
 
-<div>
+- AOS JS
+- Fetch API
+- Json-Server
+- Fully responsive
+- SEO optimized
+- W3C validation
+- Pages load speed
+- Page Home
+- Page About
+- Page Post details
+- Smooth animation on scroll
+- Images new gen
+  <br /><br />
 
-  ## Features
+# 📚 Aprendizados
+
+Criar animações suaves e intercaladas com cards (Motion Design). <br />
+Organizar as informações e elementos visuais de forma simples, intuitiva e agradável, baseando em estudos, mantendo a consistência de estilos.
+<br /><br />
+
+# 🚀 Deploy
+
+<a href="https://diogorealles.github.io/projects/desafio01/" target="_blank"><img src="https://img.shields.io/badge/Site-Desafio 01-black?style=for-the-badge&logo=html5&logoColor=white"></a>
+<br /><br />
+
+## Clone
+
+```
+git clone git@github.com:DiogoRealles/git
+```
+
+<p>Gostou? deixa seu like!</p>
+<p>Estou disponível para realizar seus projetos</p>
+
+<!--
+<a href="mailto:diogorealles@hotmail.com"><img src="https://img.shields.io/badge/diogorealles@hotmail.com-1F2D52?style=for-the-badge&logo=gmail&logoColor=white"></a>
+-->
+
+<a href="https://www.linkedin.com/in/diogorealles/"><img src="https://img.shields.io/badge//Diogo Realles-1F2D52?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+
+<p><strong>
   
-  - AOS JS
-  - Fetch API
-  - Json-Server
-  - Fully responsive
-  - SEO optimized
-  - W3C validation
-  - Pages load speed
-  - Page Home
-  - Page About
-  - Page Post details
-  - Smooth animation on scroll
-</div>
-
-
-<div>
-
-## <b>Screenshots</b>
-
-![Screenshots](./src/img/screenshot-01.png)
-<p>
-
-_blog. - SASS / BEM_</p>
-
-</div>
-
-
-<div>
-
-  ## That I liked to learn
-  
-  <p>Doing use library <b>AOS JS</b>.</p>
-
-  ```CSS
-  <div data-aos="fade-up"> ... </div>
-  ```
-  
-  <br />
-  
-  <p>Doing <b>fetch</b> datas in JavaScript</p>
-  
-  ```javascript
-  featch('db.json').then(response => response.json())...
-  ```
-</div>
-<br />
-
-
-<div>
-
-## <b>See project online</b>
-  <a href="https://www.realles.tk/projects/hora-de-codar/project04/" target="_blank"><img src="https://img.shields.io/badge/Site-Projeto 04-black?style=for-the-badge&logo=html5&logoColor=white"></a>
-</div>
-
-
-<div>
-  
-  ## Thanks
-  
-  <p>Thanks _Iuri Silva_ disponibilized layouts Figma in group codelândia.</p>
-</div>
-
-
-<footer>
-  <p>Gostou? deixa seu like!</p>
-  <p>Estou disponível para realizar seus projetos</p>
-  <a href="mailto:diogorealles@hotmail.com"><img src="https://img.shields.io/badge/diogorealles@hotmail.com-1F2D52?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/diogorealles/"><img src="https://img.shields.io/badge//Diogo Realles-1F2D52?style=for-the-badge&logo=linkedin&logoColor=white"></a><br />
-  
-  <p><strong>Diogo Realles | 2023</strong></p>
-</footer>
+  [Diogo Realles](https://diogorealles.github.io/) | 2025
+  </strong></p>

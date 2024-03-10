@@ -1,4 +1,4 @@
-# CODELÂNDIA - Desafio 28
+# CODELÂNDIA - Desafio 13
 
 ![cover](cover.jpg)
 
@@ -14,8 +14,8 @@
 
 # ⚡ Overview
 
-<b>Desafio 28</b>: Projeto de desafio do grupo <b>Codelândia</b>, onde devemos codificar as landing pages disponibilizadas.<br>
-Objetivo do projeto foi criar uma página responsiva para time de futebol, desenvolvida com as technologias:<br />
+<b>Desafio 13</b>: Projeto de desafio do grupo <b>Codelândia</b>, onde devemos codificar as landing pages disponibilizadas.<br>
+Objetivo do projeto foi criar uma página responsiva para streaming de filmesde games, desenvolvida com as technologias:<br />
 <b>HTML5</b> | <b>CSS3</b> | <b>JavaScript</b> | <b>SASS</b> e métodologia <b>BEM</b>.
 <br /><br />
 
@@ -41,7 +41,7 @@ Organizar as informações e elementos visuais de forma simples, intuitiva e agr
 
 # 🚀 Deploy
 
-<a href="https://diogorealles.github.io/projects/desafio28/" target="_blank"><img src="https://img.shields.io/badge/Site-Desafio 28-black?style=for-the-badge&logo=html5&logoColor=white"></a>
+<a href="https://diogorealles.github.io/projects/desafio13/" target="_blank"><img src="https://img.shields.io/badge/Site-Desafio 13-black?style=for-the-badge&logo=html5&logoColor=white"></a>
 <br /><br />
 
 ## Clone
