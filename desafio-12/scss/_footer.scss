@@ -1,0 +1,58 @@
+@use './variables';
+
+
+.footer{
+  padding-block: 1.6rem;
+  background: variables.$light-100;
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-block: 2rem;
+
+    .logo{
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+      font-weight: 600;
+      font-size: 1.8rem;
+    }
+
+    .menu-footer{
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+
+      li{
+        padding: .4rem;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+        background: variables.$primary-300;
+        border-radius: 50%;
+        padding: .8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:is(:hover, :focus){
+          transform: translateY(-8px);
+        }
+        
+        a{
+          font-size: 1.8rem;
+          color: variables.$primary-100;
+        }
+      }
+    }
+  }
+
+  .bottom{
+    text-align: center;
+
+    p{
+      line-height: 200%;
+    }
+  }
+}

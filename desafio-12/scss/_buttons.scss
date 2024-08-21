@@ -1,0 +1,28 @@
+@use './variables';
+
+
+.button{
+  background: transparent;
+  font-family: variables.$font-body;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 100%;
+  color: variables.$light-100;
+  padding-block: 1rem;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  border-radius: .8rem;
+
+  &-primary{
+    border: 2px solid transparent;
+    background: variables.$primary-100;
+
+    &:is(:hover, :focus){
+      filter: brightness(1.1);
+    }
+  }
+}

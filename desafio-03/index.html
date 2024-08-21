@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Regular data -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <meta name="author" content="Diogo Realles, Desenvolvedor Front-end" />
+    <meta name="description" content="Diogo Realles, Desenvolvedor Front-end" />
+    <meta name="keywords" content="Diogo Realles, Desenvolvedor, Front-end" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <link rel="canonical" href="https://diogorealles.github.io/" />
+
+    <!-- Open Graph data -->
+    <meta property="og:url" content="https://diogorealles.github.io/" />
+    <meta property="og:title" content="Layout structure initial" />
+    <meta property="og:site_name" content="Template - Services Architecture" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:description" content="Layout structure initial." />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://diogorealles.github.io/share-img.jpg"
+    />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="500" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta
+      property="article:published_time"
+      content="2022-12-12T11:46:00+00:00"
+    />
+    <meta
+      property="article:modified_time"
+      content="2022-12-12T11:46:04+00:00"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Diogo Realles, Desenvolvedor, Front-end"
+    />
+    <meta
+      name="twitter:description"
+      content="Diogo Realles, Desenvolvedor, Front-end."
+    />
+    <meta name="twitter:url" content="https://diogorealles.github.io/" />
+    <meta
+      name="twitter:image"
+      content="https://diogorealles.github.io/share-img.jpg"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./favicon.svg?v=1" type="image/svg+xml" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="shortcut icon" href="./favicon.png" type="image/png" />
+    <link
+      rel="icon"
+      href="./favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="./favicon-64x64.png"
+      type="image/png"
+      sizes="64x64"
+    />
+
+    <!-- Google Fonts | Poppins - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5 Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- CSS Project -->
+    <link rel="preload" href="./css/style.min.css" as="style" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- JS Project -->
+    <script type="module" src="./js/script.js" defer></script>
+
+    <title>Codelandia - Desafio 00 (Template)</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="intro">
+          <h1>Lorem ipsum dollor sit amet</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu
+            massa sit amet augue consectetur ullamcorper non ac massa.
+          </p>
+          <button>Botão</button>
+        </div>
+
+        <div class="image">
+          <img src="./img/img-hero.svg" alt="Ilustra Hero" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="posts">
+        <div class="container">
+          <header class="header-section">
+            <h2>Últimos posts</h2>
+            <p>Veja nossos últimos posts do nosso blog.</p>
+          </header>
+
+          <div class="posts__list"></div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <header class="header-section">
+            <h2>Entre em contato</h2>
+            <p>Gostou de alguma postagem e quer saber mais?</p>
+          </header>
+
+          <form class="form">
+            <div class="form__group">
+              <label class="form__label" for="name">Nome</label>
+              <input
+                id="name"
+                class="form__control"
+                type="text"
+                placeholder="Nome"
+              />
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="email">E-mail</label>
+              <input
+                id="email"
+                class="form__control"
+                type="email"
+                placeholder="E-mail"
+              />
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="phone">Telefone</label>
+              <input
+                id="phone"
+                class="form__control"
+                type="text"
+                placeholder="phone"
+              />
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="message">Mensagem</label>
+              <textarea
+                id="message"
+                class="form__control"
+                name="message"
+                placeholder="Mensagem"
+              ></textarea>
+            </div>
+
+            <div class="form__group">
+              <button class="button" type="submit">Enviar mensagem</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <a href="./"><strong>Blog.</strong></a>
+        <span data-js="yearFooter">0000</span> &copy; | Todos os direitos
+        reservados.
+      </p>
+      <p>
+        Development by -
+        <strong
+          ><a href="https://www.realles.tk" target="_blank"
+            >Diogo Realles</a
+          ></strong
+        >
+      </p>
+    </footer>
+  </body>
+</html>

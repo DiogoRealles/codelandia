@@ -1,0 +1,130 @@
+@use './variables';
+
+.hero{
+  background: url('../img/img-hero-desktop.jpg') no-repeat center/cover;
+  padding-block: 5rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container{
+    .hero-content-top{
+      text-align: center;
+      margin-block: 10rem;
+
+      h2{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2.4rem;
+        line-height: 120%;
+        color: variables.$light-100;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-bottom: 3.2rem;
+      }
+
+      h1{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 9.6rem;
+        line-height: 115%;
+        color: variables.$light-100;
+      }
+    }
+    
+    .hero-content-bottom{
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+      margin-inline: auto;
+      width: 100%;
+      max-width: 98rem;
+
+      .image{
+        flex: 1 1 450px;
+        border-radius: 1.8rem;
+        overflow: hidden;
+      }
+
+      .text{
+        p{
+          font-weight: 400;
+          font-size: 2rem;
+          line-height: 150%;
+          color: variables.$light-100;
+          margin-bottom: 4rem;
+        }
+
+        .details{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin-bottom: 4rem;
+          width: 100%;
+          max-width: 80%;
+
+          span{
+            font-weight: 700;
+            font-size: 2.4rem;
+            line-height: 150%;
+            color: variables.$light-100;
+          }
+
+          .rate{
+            i{
+              color: variables.$primary-200;
+              font-size: 2.4rem;
+            }
+          }
+
+          .date{
+            font-weight: 700;
+            font-size: 2.4rem;
+            line-height: 150%;
+            color: variables.$light-100;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    background: url('../img/img-hero-mobile.jpg') no-repeat center/cover;
+
+    .container{
+      .hero-content-top{
+        h2{
+          font-size: 1.8rem;
+        }
+
+        h1{
+          font-size: 64px;
+        }
+      }
+
+      .hero-content-bottom{
+        max-width: 100%;
+        flex-direction: column;
+
+        .image{
+          display: none;
+        }
+
+        .text{
+          p{
+            font-size: 1.6rem;
+            text-align: center;
+          }
+
+          .details{
+            max-width: 100%;
+            flex-direction: column;
+            gap: 1.4rem;
+            // justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

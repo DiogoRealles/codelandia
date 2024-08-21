@@ -1,0 +1,18 @@
+@use "./resets";
+@use "./fonts";
+@use "./container";
+@use "./header";
+@use "./hero";
+@use "./results";
+@use "./about";
+@use "./news";
+@use "./footer";
+
+.header,
+.hero,
+.results,
+.about,
+.news,
+.footer {
+  // display: none;
+}

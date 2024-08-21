@@ -1,0 +1,74 @@
+@use './variables';
+@use './animation';
+
+.hero{
+  padding-block: 5rem;
+  
+  .container{
+    .hero-flex{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+      .intro{
+        width: 100%;
+        max-width: 445px;
+
+        h2{
+          font-weight: 700;
+          font-size: 2rem;
+          line-height: 120%;
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
+          color: variables.$light-100;
+          margin-bottom: 1.6rem;
+        }
+
+        h1{
+          font-weight: 900;
+          font-size: 6.8rem;
+          line-height: 110%;
+          color: variables.$light-100;
+          margin-bottom: 2.4rem;
+        }
+
+        p{
+          font-weight: 400;
+          font-size: 1.6rem;
+          line-height: 180%;
+          color: variables.$light-100;
+          margin-bottom: 4.6rem;
+        }
+      }
+
+      .image{
+        animation: float 1.5s ease-in-out alternate infinite;
+      }
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .container{
+      .hero-flex{
+        .intro{
+          max-width: 100%;
+  
+          h2{
+            font-size: 1.8rem;
+            margin-bottom: .8rem;
+          }
+  
+          h1{
+            font-size: 4.8rem;
+            margin-bottom: 1.6rem;
+          }
+  
+          p{
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+}

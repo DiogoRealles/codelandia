@@ -1,0 +1,96 @@
+@use "./variables" as *;
+
+.about {
+  background: linear-gradient(
+      to bottom,
+      rgba(11, 20, 33, 0.8),
+      rgba(11, 20, 33, 0.8)
+    ),
+    url("../img/bg-about-mobi.webp") no-repeat center / cover;
+  padding-block: 4rem;
+
+  .container {
+    .info {
+      background: #fff;
+      padding: 3.2rem;
+      width: 100%;
+      max-width: 102rem;
+
+      h2 {
+        font-family: $font-inter;
+        font-weight: 600;
+        font-size: 2rem;
+        color: $dark;
+        margin-bottom: 1.6rem;
+        text-transform: uppercase;
+        position: relative;
+
+        &::before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 4px;
+          left: 0;
+          width: 3px;
+          height: 15px;
+          background: $red;
+          margin-left: -5px;
+        }
+      }
+
+      p {
+        font-family: $font-inter;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 150%;
+        color: $gray;
+        margin-bottom: 1.8rem;
+      }
+
+      .button {
+        color: $red;
+        padding: 0.2rem 0.8rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 678px) {
+    background: linear-gradient(
+        to bottom,
+        rgba(11, 20, 33, 0.8),
+        rgba(11, 20, 33, 0.8)
+      ),
+      url("../img/bg-about-desk.webp") no-repeat center / cover;
+    padding-block: 17.6rem;
+
+    .container {
+      .info {
+        background: #fff;
+        padding: 4rem;
+
+        h2 {
+          font-size: 3.2rem;
+          margin-bottom: 2.4rem;
+
+          &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 8px;
+            left: -2px;
+            width: 4px;
+            height: 23px;
+            background: $red;
+            margin-left: -5px;
+          }
+        }
+
+        p {
+          font-size: 1.8rem;
+          line-height: 170%;
+          margin-bottom: 3.2rem;
+        }
+      }
+    }
+  }
+}

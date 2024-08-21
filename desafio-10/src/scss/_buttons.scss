@@ -1,0 +1,42 @@
+@use './variables';
+
+
+
+.button{
+  background: transparent;
+  font-family: variables.$font-body;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 100%;
+  color: variables.$dark-100;
+  padding: 1rem 2.4rem;
+  letter-spacing: 1px;
+  text-align: center;
+  white-space: nowrap;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  border-radius: .4rem;
+  display: inline-block;
+
+  &-primary{
+    border: 2px solid transparent;
+    background: variables.$primary-100;
+    color: variables.$light-100;
+
+    &:is(:hover, :focus){
+      filter: brightness(1.1);
+    }
+  }
+  
+  &-outline{
+    border: 2px solid variables.$grey-100;
+    background: transparent;
+    color: variables.$light-100;
+
+    &:is(:hover, :focus){
+      background: variables.$primary-100;
+      border-color: variables.$primary-100;
+      color: variables.$dark-100;
+    }
+  }
+}

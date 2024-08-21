@@ -1,0 +1,91 @@
+@use './variables';
+
+.navbar{
+  padding-block: 1.6rem;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+      font-family: variables.$font-title;
+      font-weight: 700;
+      font-size: 2.4rem;
+      line-height: 120%;
+      color: variables.$dark-100;
+    }
+
+    .search-login{
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+
+      li{
+        transition: all .3s ease-in-out;
+
+        .button-search{
+          padding: .8rem;
+          border: 2px solid variables.$light-200;
+          border-radius: 50%;
+          background: transparent;
+          cursor: pointer;
+
+          i{
+            font-size: 1.8rem;
+          }
+        }
+        
+        .button-outline{
+          font-family: variables.$font-body;
+          border: 2px solid variables.$light-100;
+          border-radius: 4rem;
+          padding: .8rem 2.4rem;
+          cursor: pointer;
+          font-weight: 600;
+          font-size: 1.8rem;
+          line-height: 150%;
+          text-transform: uppercase;
+          color: variables.$dark-100;
+          transition: all .3s ease-in-out;
+
+          &:is(:hover, :focus){
+            background: variables.$primary-100;
+          }
+        }
+      }
+    }
+    
+    .menu-mobile{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 530px) {
+    .container{
+      .search-login{
+        display: none;
+      }
+
+      .menu-mobile{
+        display: block;
+
+        button{
+          background: transparent;
+          padding: .4rem;
+          border: none;
+          cursor: pointer;
+
+          i{
+            font-size: 2.8rem;
+          }
+        }
+      }
+    }
+  }
+}

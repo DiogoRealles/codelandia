@@ -1,0 +1,22 @@
+@use './variables';
+button{
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.btn-primary{
+  text-decoration: none;
+  background: variables.$linear;
+  color: variables.$white;
+  padding: 18px 40px;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 18px;
+  transform: scale(1);
+  transition: all .3s ease-in-out;
+  font-family: variables.$font-title;
+
+  &:hover{
+    transform: scale(1.05);
+  }
+}

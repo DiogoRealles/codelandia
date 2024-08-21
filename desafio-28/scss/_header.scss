@@ -1,0 +1,145 @@
+@use "./variables" as *;
+
+// HEADER - MOBI
+.header {
+  border: 4px solid reblue;
+  width: 100%;
+  padding-block: 1.6rem;
+  position: absolute;
+  z-index: 1;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      width: 40px;
+      height: 40px;
+
+      @media screen and (min-width: 768px) {
+        width: 64px;
+        height: 64px;
+      }
+    }
+
+    .nav {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      position: relative;
+      justify-content: space-between;
+      font-size: 2rem;
+
+      .btn-menu {
+        background: $red;
+        color: $light;
+        font-size: 1.4rem;
+        padding-block: 0.6rem;
+        padding-inline: 1.8rem;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.4rem;
+        border-radius: 4px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          filter: brightness(0.8);
+        }
+
+        @media screen and (min-width: 768px) {
+          display: none;
+        }
+
+        i {
+          background: $red;
+          color: $light;
+          font-size: 1.8rem;
+        }
+      }
+
+      .menu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem;
+        display: none;
+
+        @media screen and (min-width: 768px) {
+          flex-direction: row;
+          display: flex;
+          position: static;
+        }
+
+        li {
+          a {
+            transition: all 0.3s ease-in-out;
+            padding: 0.2rem 0.8rem;
+
+            &:hover {
+              filter: brightness(0.8);
+            }
+          }
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    .signin {
+      display: none;
+
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+
+        li {
+          text-transform: uppercase;
+          font-size: 1.8rem;
+
+          a {
+            transition: all 0.3s ease-in-out;
+            padding: 0.2rem 0.8rem;
+
+            &:hover {
+              filter: brightness(0.8);
+            }
+          }
+
+          .btn-register {
+            background: $red;
+            color: $light;
+            padding-block: 0.6rem;
+            padding-inline: 1.8rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.4rem;
+            border-radius: 4px;
+            transition: all 0.3s ease-in-out;
+            text-transform: uppercase;
+            font-size: 1.8rem;
+
+            &:hover {
+              filter: brightness(0.8);
+            }
+          }
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        display: flex;
+      }
+    }
+  }
+}

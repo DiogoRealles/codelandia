@@ -1,0 +1,32 @@
+@use './variables';
+
+.skills{
+  padding-block: 10rem;
+  
+  .container{
+    .cards{
+      margin-top: 8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.6rem;
+      margin-inline: auto;
+      
+      .card{
+        flex: 1 1 120px;
+        text-align: center;
+        margin-bottom: 1.6rem;
+        background: variables.$dark-200;
+        padding: 1.8rem;
+        border: 1px solid variables.$grey-200;
+
+        &-top{
+          img{
+            margin-inline: auto;
+          }
+        }
+      }
+    }
+  }
+}

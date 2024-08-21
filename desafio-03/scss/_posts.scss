@@ -1,0 +1,12 @@
+@use './variables';
+
+.posts{
+  background: variables.$light-100;
+  padding-block: 10rem;
+
+  &__list{
+    display: flex;
+    gap: 2.4rem;
+    flex-wrap: wrap;
+  }
+}

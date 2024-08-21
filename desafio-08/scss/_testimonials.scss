@@ -1,0 +1,50 @@
+@use './variables';
+
+.testimonials{
+  margin-top: 24rem;
+  
+  .container{
+    padding: 6rem;
+    background: variables.$light-300;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+    
+    .testmonial{
+      flex: 1 1 40rem;
+
+      .name{
+        position: relative;
+        padding-left: .8rem;
+        margin-bottom: 1rem;
+        color: variables.$grey-100;
+
+        &::before{
+          content: '';
+          width: 3px;
+          height: 100%;
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: variables.$primary-100;
+        }
+      }
+  
+      p{
+        font-family: variables.$font-body;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: variables.$dark-100;
+      }
+    }
+  }
+
+  @media screen and (max-width: 530px) {
+    margin-top: 8rem;
+  }
+}

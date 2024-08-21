@@ -1,0 +1,55 @@
+@use './variables';
+
+.header{
+  background: variables.$linear;
+  padding-block: 40px;
+  
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  &__logo,
+  &__about{
+    text-decoration: none;
+    color: variables.$white;
+    font-size: 24px;
+  }
+  &__search{
+    .form{
+      display: flex;
+
+      &__search{
+        background: variables.$white-100;
+        border: none;
+        border-radius: 0 6px 6px 0;
+        cursor: pointer;
+        font-size: 24px;
+        color: variables.$white;
+        padding: 0 24px;
+      }
+
+      &__control{
+        background: variables.$white-100;
+        border: none;
+        outline: none;
+        width: 100%;
+        border-radius: 6px 0 0 6px;
+        font-size: 18px;
+        color: variables.$white;
+        padding: 21px 18px;
+        border: 1px solid transparent;
+
+        &::placeholder{
+          color: variables.$grey-100;
+        }
+
+        &:focus{
+          border: 1px solid variables.$white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+@use './variables';
+
+.hero{
+  width: 100%;
+  height: 100vh;
+  background: url('../img/img-hero.png') no-repeat center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .intro{
+      .hero-image{
+        margin-bottom: 8rem;
+      }
+
+      .persons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4rem;
+        width: 100%;
+
+        .card{
+          .img-group{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-bottom: 1.6rem;
+  
+            .img-border{
+              position: absolute;
+              background: variables.$light-100;
+              width: 100%;
+              height: 100%;
+              left: -15px;
+              top: -15px;
+              clip-path: polygon(20% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 20%);
+  
+              &::after {
+                content: "";
+                position: absolute;
+                background: variables.$dark-100;
+                width: 98.5%;
+                height: 98.5%;
+                left: 1px;
+                top: 1px;
+                clip-path: polygon(20% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 20%);
+              }
+            }
+  
+            a{
+              img{
+                position: relative;
+                clip-path: polygon(15% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 15%);
+                background: variables.$primary-100;
+                border: 1.5px solid variables.$light-100;
+                transition: all .3s ease-in-out;
+                cursor: pointer;
+  
+                &:hover {
+                  transform: scale(1) translate(-10px, -30px);
+                  clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+                }
+              }
+            }
+          }
+
+          p{
+            font-weight: 600;
+            font-size: 2.4rem;
+            line-height: 150%;
+            text-align: center;
+            color: variables.$light-100;
+          }
+        }
+
+      }
+    }
+  }
+
+  @media screen and (max-width:767px) {
+    padding-top: 30rem;
+
+    .container{
+      .intro{
+        .hero-image{
+          margin-top: 16rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+@use './variables';
+@use './mixins';
+
+.post{
+  padding-block: 40px;
+  background: variables.$grey-100;
+
+  &__category,
+  &__title,
+  &__date{
+    text-align: center;
+  }
+
+  &__category{
+    color: variables.$secondary;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 16px;
+  }
+
+  &__title{
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: variables.$grey-dark;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  &__date{
+    font-size: 16px;
+    color: variables.$grey-normal;
+    margin-bottom: 40px;
+  }
+
+  &__banner{
+    height: 470px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    border-radius: 6px;
+
+    &:hover{
+      img{
+        transform: scale(1.08);
+      }
+    }
+    
+    img{
+      width: 100%;
+      max-height: 100%;
+      border-radius: 6px;
+      transition: all .3s ease-in-out;
+    }
+  }
+
+  &__content{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    background: variables.$white;
+    box-shadow: 0px 4px 40px -8px rgba(111, 111, 111, .1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: -100px;
+    position: relative;
+  }
+
+  &__subtitle{
+    color: variables.$grey-dark;
+    font-size: 32px;
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: 600px;
+    margin: 24px auto;
+    text-align: center;
+  }
+
+  &__text{
+    color: variables.$grey-normal;
+    line-height: 150%;
+  }
+  .share{
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .socials{
+      @include mixins.flex(row, center, center);
+      gap: 1.6rem;
+      list-style: none;
+      li{
+        a{
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}

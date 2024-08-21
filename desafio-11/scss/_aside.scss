@@ -1,0 +1,14 @@
+@use './variables';
+
+
+aside {
+  background-color:variables.$light-200;
+  width:0vw;
+  font-family: variables.$font-body;
+  transition:all ease .2s;
+  overflow-x:hidden;
+}
+
+aside.show {
+  width:30vw;
+}

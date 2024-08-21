@@ -1,0 +1,31 @@
+@use './variables';
+
+.notfound{
+  background: variables.$grey-100;
+  text-align: center;
+  padding-block: 24px;
+
+  h1{
+    font-size: 40px;
+    color: variables.$primary;
+    margin-bottom: 40px;
+  }
+  h2{
+    font-size: 100px;
+    background: variables.$linear;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+  }
+  h5{
+    font-size: 24px;
+    color: variables.$grey-dark;
+    margin-bottom: 24px;
+  }
+  p{
+    font-size: 16px;
+    color: variables.$grey-normal;
+    margin-bottom: 24px;
+  }
+}

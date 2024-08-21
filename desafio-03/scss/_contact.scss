@@ -1,0 +1,6 @@
+@use './variables';
+
+.contact{
+  background: variables.$grey-100;
+  padding-block: 10rem;
+}

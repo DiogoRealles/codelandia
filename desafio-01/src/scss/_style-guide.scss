@@ -1,0 +1,128 @@
+@use './variables';
+@use './mixins';
+
+.box{
+  header{
+    text-align: center;
+    margin-bottom: 3.2rem;
+    
+    h1{
+      font-size: 4rem;
+      line-height: 150%;
+      color: variables.$grey-dark;
+    }
+    p{
+      color: variables.$grey-normal;
+    }
+  }
+  
+  margin-block: 4rem;
+
+  h3{
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+    font-weight: 500;
+  }
+
+  .flex{
+    @include mixins.flex(row, center, flex-start);
+    gap: 1.6rem;
+    flex-wrap: wrap;
+
+    .card-color{
+      width: 200px;
+      height: 100%;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, .1);
+      position: relative;
+    
+      .color{
+        height: 180px;
+        
+        &.primary{
+          background: variables.$primary;
+        }
+    
+        &.secondary{
+          background: variables.$secondary;
+        }
+        
+        &.grey-normal{
+          background: variables.$grey-normal;
+        }
+    
+        &.grey-dark{
+          background: variables.$grey-dark;
+        }
+    
+        &.white{
+          background: variables.$white;
+        }
+    
+        &.linear{
+          background: variables.$linear;
+        }
+      }
+    
+      .token{
+        padding: 8px;
+        background: variables.$grey-normal;
+        background: linear-gradient(136.72deg, rgba(7, 7, 10, 0.86) 19.22%, rgba(15, 16, 22, 0.5) 76.59%);
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    
+        p{
+          margin-bottom: 8px;
+          color: variables.$white;
+          
+          &:first-child{
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+
+  .box-type{
+    margin-bottom: 3.2rem;
+
+    h1{
+      font-size: 40px;
+      line-height: 100%;
+      font-weight: 700;
+    }
+    
+    h2{
+      font-size: 32px;
+      line-height: 110%;
+      font-weight: 700;
+    }
+    
+    h3{
+      font-size: 18px;
+      line-height: 120%;
+      font-weight: 500;
+    }
+    
+    h4{
+      font-size: 16px;
+      line-height: 150%;
+      font-weight: 500;
+    }
+
+    p{
+      margin-block: .8rem;
+      color: variables.$grey-dark;
+    }
+  }
+  
+  .icons{
+    button{
+      font-size: 1.4rem;
+    }
+  }
+}

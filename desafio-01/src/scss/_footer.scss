@@ -1,0 +1,29 @@
+@use './variables';
+
+.footer{
+  background: variables.$linear;
+  padding-block: 20px;
+  
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo,
+  &__about{
+    text-decoration: none;
+    color: variables.$white;
+    font-size: 24px;
+  }
+  &__copy{
+    text-align: center;
+    padding-block: 1.6rem;
+    color: variables.$white;
+
+    a{
+      color: variables.$white;
+      text-underline-offset: 4px;
+    }
+  }
+}

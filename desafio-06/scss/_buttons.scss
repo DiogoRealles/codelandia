@@ -1,0 +1,51 @@
+@use './variables';
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  width: 100%;
+  max-width: 400px;
+
+  .button{
+    background: transparent;
+    border: 2px solid variables.$primary-100;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: variables.$light-100;
+    padding: 1.1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    white-space: nowrap;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    flex: 1 1 218px;
+    border-radius: .6rem;
+
+    &-primary{
+      background: variables.$primary-100;
+      border: none;
+
+      &:is(:hover, :focus){
+        filter: brightness(1.1);
+      }
+    }
+    
+    &-outline{
+      &:is(:hover, :focus){
+        background: variables.$primary-100;
+      }
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,41 @@
+@use './variables';
+
+.header{
+  background: variables.$grey-100;
+  padding-block: 10rem;
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .intro{
+      max-width: 40rem;
+
+      h1{
+        font-family: variables.$font-title;
+        font-weight: 700;
+        font-size: 3.6rem;
+        line-height: 120%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: variables.$dark-100;
+        margin-bottom: 1.8rem;
+      }
+  
+      p{
+        font-family: variables.$font-body;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: variables.$dark-200;
+        margin-bottom: 4rem;
+      }
+    }
+  }
+}
